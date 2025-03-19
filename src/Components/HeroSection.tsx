@@ -2,22 +2,30 @@ import React from 'react'
 import HeroImage from '../assets/Images/HeroSectionImage.png'
 import Brush from '../assets/Images/BrushImage.png'
 import ScissorImage from '../assets/Images/ScissorImage.png'
+import MakeupImage from '../assets/Images/MakeupImage.png'
 
 function HeroSection() {
     return (
-        <div className=''>
-            <div className='md:w-[28%] sm:w-max-[10%] mx-5 mt-5 md:absolute md:top-[20%] md:justify-end md:left-[38%]'>
-                <img src={Brush} className='w-[10%] sm:w-max-[10%] h-[80px] object-contain justify-start' />
-                <p className='text-black font-gilroy font-bold md:text-16px sm:text-14px'>Hair Styling</p>
-                <p className='text-black font-gilroy font-regular text-12 sm:text-10'>Professional Hair Stylists specializing in contemporary cuts, hair treatments, and personalized hair care.</p>
+        <div className='md:flex md:flex-row sm:flex-col items-center justify-between'>
+            <div className='flex flex-wrap md:w-[60%]'>
+                <div className='md:flex sm:max-w-full sm:flex-col p-4 relative md:left-[55%]'>
+                    <img src={Brush} className='w-[10%] sm:w-max-[10%] h-[80px] object-contain justify-start' />
+                    <h3 className='text-black font-gilroy font-bold text-[18px]'>Hair Styling</h3>
+                    <p className='text-black font-gilroy font-regular text-[12px] '>Professional Hair Stylists specializing in contemporary cuts, hair treatments, and personalized hair care.</p>
+                </div>
+                <div className='md:flex sm:max-w-full sm:flex-col p-4 '>
+                    <img src={ScissorImage} className='w-[30%] sm:w-max-[10%] h-auto object-contain justify-start' />
+                    <h3 className='text-black font-gilroy font-bold text-[18px]'>Hair Cut</h3>
+                    <p className='text-black font-gilroy font-regular text-[12px] '>Skilled hair stylists offering precision cuts tailored to enhance individual style and personality.</p>
+                </div>
+                <div className='md:flex sm:max-w-full sm:flex-col p-4 relative md:left-[55%] sm:mb-5'>
+                    <h3 className='text-black font-gilroy font-bold text-[18px]'>Make over</h3>
+                    <p className='text-black font-gilroy font-regular text-[12px] '>Expert makeover artists with a passion for transforming looks through innovative hair styling, makeup, and wardrobe consultations.</p>
+                    <img src={MakeupImage} className='w-[40%] sm:w-max-[10%] h-auto object-contain justify-start mt-5' />
+                </div>
             </div>
-            <div className=' sm:w-max-[10%] mx-5 mt-5 md:absolute md:top-[48%] md:left-[5%]'>
-                <img src={ScissorImage} className='w-[30%] sm:w-max-[10%] h-auto object-contain justify-start' />
-                <p className='text-black font-gilroy font-bold md:text-16px sm:text-14px'>Hair Cut</p>
-                <p className='text-black font-gilroy font-regular text-12 sm:text-10 md:w-[60%] '>Skilled hair stylists offering precision cuts tailored to enhance individual style and personality.</p>
-            </div>
-            <div className='flex justify-end relative top-10 md:right-5'>
-                <img src={HeroImage} className='w-full sm:max-w-[30%] h-auto' />
+            <div className='md:justify-items-end md:mr-[5%]'>
+                <img src={HeroImage} className='md:w-[65%] object-contain' />
             </div>
         </div>
     )
