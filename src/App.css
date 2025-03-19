@@ -1,10 +1,41 @@
 @import "tailwindcss";
-
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Regular.ttf");
+  font-weight: 400;  /* Regular weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-SemiBold.ttf");
+  font-weight: 600;  /* SemiBold weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Bold.ttf");
+  font-weight: 700;  /* Bold weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Medium.ttf");
+  font-weight: 500;  /* Medium weight */
+  font-style: normal;
+}
+@theme{
+  --font-gilroy: 'Gilroy-Regular', 'sans-serif';
+  /* --font-gilroy-semibold: 'Gilroy-SemiBold', 'sans-serif';
+  --font-gilroy-bold: 'Gilroy-Bold', 'sans-serif';
+  --font-gilroy-medium: 'Gilroy-Medium', 'sans-serif'; */
+}
 #root {
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: white;
+}
 
 @keyframes logo-spin {
   from {
