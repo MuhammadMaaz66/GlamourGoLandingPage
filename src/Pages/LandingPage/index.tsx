@@ -5,6 +5,7 @@ import AboutUs from '../../Components/AboutUs'
 import Categories from '../../Components/Categories'
 import Specialist from '../../Components/Specialist'
 import SpecialOffers from '../../Components/SpecialOffers'
+import Footer from '../../Components/Footer'
 
 function LandingPage() {
     return (
@@ -15,6 +16,7 @@ function LandingPage() {
             <Categories />
             <Specialist />
             <SpecialOffers />
+            <Footer />
         </div>
     )
 }

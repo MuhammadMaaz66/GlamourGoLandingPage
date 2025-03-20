@@ -5,7 +5,7 @@
   
   font-style: normal;
 }
-@font-face {
+/* @font-face {
   font-family: 'Gilroy';
   src: url("../src/assets/fonts/Gilroy-SemiBold.ttf");
   
@@ -14,7 +14,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: url("../src/assets/fonts/Gilroy-Bold.ttf");
- 
+ font-weight: 700;
   font-style: normal;
 }
 @font-face {
@@ -22,12 +22,12 @@
   src: url("../src/assets/fonts/Gilroy-Medium.ttf");
   
   font-style: normal;
-}
+} */
 @theme{
   --font-gilroy: 'Gilroy-Regular', 'sans-serif';
-  --font-gilroy-semibold: 'Gilroy-SemiBold', 'sans-serif';
+  /* --font-gilroy-semibold: 'Gilroy-SemiBold', 'sans-serif';
   --font-gilroy-bold: 'Gilroy-Bold', 'sans-serif';
-  --font-gilroy-medium: 'Gilroy-Medium', 'sans-serif';
+  --font-gilroy-medium: 'Gilroy-Medium', 'sans-serif'; */
   --color-primary: #D33D75;
   --color-border: #FF96BD;
 }
