@@ -5,7 +5,7 @@ import { IoMdClose } from "react-icons/io";
 
 function Header() {
     const [toggle, setToggle] = useState(false)
-    const scrollToSection = (id) => {
+    const scrollToSection = (id:any) => {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     };
     return (
