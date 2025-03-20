@@ -6,7 +6,7 @@ import MakeupImage from '../assets/Images/MakeupImage.png'
 
 function HeroSection() {
     return (
-        <div className='md:flex md:flex-row sm:flex-col items-center justify-between'>
+        <div className='md:flex md:flex-row sm:flex-col items-center justify-between' id='hero'>
             <div className='flex flex-wrap md:w-[60%] ml-[5%]'>
                 <div className='md:flex sm:max-w-full sm:flex-col p-4 relative md:left-[55%]'>
                     <img src={Brush} className='w-[10%] sm:w-max-[10%] h-[80px] object-contain justify-start' />

@@ -4,7 +4,7 @@ import SpecialistTwo from '../assets/Images/SpecialistTwo.png'
 
 function Specialist() {
     return (
-        <div>
+        <div id='specialist'>
             <p className='text-primary text-[38px] font-gilroy-bold text-center mt-5 font-bold'>Best Specialists</p>
             <div className='flex flex-col md:flex-row w-[70%] mx-auto items-baseline flex-wrap'>
                 <div className='flex flex-col items-center text-center md:w-1/3 sm:w-full p-4'>

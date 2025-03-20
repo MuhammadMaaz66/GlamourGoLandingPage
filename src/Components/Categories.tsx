@@ -3,7 +3,7 @@ import CategoriesImage from '../assets/Images/CategoriesImage.png'
 
 function Categories() {
     return (
-        <div className='mb-5'>
+        <div className='mb-5' id='categories'>
             <p className='text-primary text-[38px] font-gilroy-bold text-center mt-5 font-bold'>Categories</p>
             <div className='md:flex md:flex-row sm:flex-col items-center justify-between'>
                 <div>
